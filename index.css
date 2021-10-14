@@ -1,15 +1,15 @@
-$color: red;
-$textcolor: yellow;
 body {
-  background-color: rgb(224, 232, 255);
+  background-color: #e0e8ff;
   background-image: url("images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Red Hat Display", sans-serif;
   margin: 0;
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: hsl(228, 45%, 44%);
+  color: #3e52a3;
 }
+/*# sourceMappingURL=index.css.map */
