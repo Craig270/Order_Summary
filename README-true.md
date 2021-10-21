@@ -66,3 +66,6 @@ Deep diving into CSS grid to dial layouts and building for mobile more effective
 
 Found this free tutorial for learning Grid that was only 60min long. As I am trying to avoid tutorial hell I did not want to do anything over an hour long.
 (https://scrimba.com/learn/cssgrid/intro-to-the-css-grid-course-cg9PpTb)
+
+Quick and easy way to setup Grid Layouts
+https://scrimba.com/learn/cssgrid/template-areas-css-grid-tutorial-c7Jqdfa

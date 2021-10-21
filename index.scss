@@ -1,78 +1,12 @@
-// $color: red;
-// $textcolor: yellow;
-// body {
-//   display: flex;
-//   background-color: rgb(224, 232, 255);
-//   background-image: url("images/pattern-background-desktop.svg");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   font-family: "Red Hat Display", sans-serif;
-//   margin: 0;
-// }
-
-// .mainCard {
-//   background-color: white;
-//   display: flex;
-//   width: 450px;
-//   height: 697px;
-//   align-items: center;
-//   justify-content: center;
-
-//   .mainImg {
-//     display: flex;
-//     justify-content: flex-end;
-//   }
-//   .attribution {
-//     font-size: 11px;
-//     text-align: center;
-//     color: hsl(228, 45%, 44%);
-//   }
-// }
 body {
-  display: flex;
-  flex-direction: column;
-  background: yellow;
-  justify-content: center;
-}
-.mainCard {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  align-self: center;
-  position: relative;
-  width: 400px;
-  height: 697px;
-  border-radius: 1.25rem;
-  margin: 0.75rem;
-  overflow: hidden;
-  background: white;
-  padding: 20px;
-  .orderSummary {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-  }
-}
-.box div {
-  width: 100px;
-  height: 100px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+  background-color: #e0e8ff;
 }
 
-.mainImg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.orderSummary {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  position: relative;
-  top: 38%;
-}
-
-.orderTitle {
-  position: relative;
-  top: 35%;
-}
+.mainCard
