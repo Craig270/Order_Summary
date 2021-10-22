@@ -70,6 +70,10 @@ h1 {
     align-items: center;
     justify-content: center;
   }
+
+  .summary {
+    padding: 0 20px;
+  }
 }
 
 .btn {
@@ -114,4 +118,10 @@ h1 {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+  .mainCard {
+    width: 500px;
+  }
 }
