@@ -5,8 +5,36 @@ body {
   display: -ms-grid;
   display: grid;
   place-items: center;
-  background-image: url("/images/pattern-background-desktop.svg");
+  background-image: url("./images/pattern-background-desktop.svg");
   background-repeat: repeat-x;
   background-color: #e0e8ff;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+button {
+  font-family: "Red Hat Display";
+}
+
+.mainCard {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 3px #202b55;
+          box-shadow: 3px 3px 3px #202b55;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.craig {
+  color: red;
+  background-color: #8d1818;
 }
 /*# sourceMappingURL=index.css.map */

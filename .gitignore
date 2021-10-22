@@ -15,4 +15,6 @@
 .DS_Store
 .prettierignore
 .vscode
-.index.css.map
+.index.css.map 
+*package-lock.json
+node_modules

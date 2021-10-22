@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Craig270/Order_Summary/issues"
   },
-  "homepage": "https://github.com/Craig270/Order_Summary#readme"
+  "homepage": "https://github.com/Craig270/Order_Summary#readme",
+  "dependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
 }
