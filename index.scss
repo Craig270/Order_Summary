@@ -108,16 +108,17 @@ h1 {
 .btn-secondary {
   background-color: transparent;
   color: $desaturatedBlue;
-}
-.btn-secondary:hover {
-  color: red;
+  &:hover {
+    //Adding hover
+    color: red;
+  }
 }
 .attribution {
   font-size: 11px;
   text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  a {
+    color: hsl(228, 45%, 44%);
+  }
 }
 
 @media (min-width: 768px) {
